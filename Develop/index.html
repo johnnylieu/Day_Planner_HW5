@@ -15,6 +15,27 @@
   <title>Work Day Scheduler</title>
 </head>
 
+<style>
+  /* because the scroll bar disappeared so i'm using this to bring it back */
+  /* width */
+  ::-webkit-scrollbar {
+  width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  background: #888;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  }
+  
+  </style>
+
 <body>
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
@@ -29,7 +50,7 @@
 
       <div class="col-md-2 time">9:00 AM</div>
 
-      <div class="col-md-8 type time-block" data-hour="9">
+      <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="9">
         <textarea class="description" id="description9"></textarea>
       </div>
 
@@ -42,7 +63,7 @@
 
       <div class="col-md-2 time">10:00 AM</div>
 
-      <div class="col-md-8 type time-block" data-hour="10">
+      <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="10">
         <textarea class="description" id="description10"></textarea>
       </div>
 
@@ -50,7 +71,45 @@
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="10" style="height: 80px; width: 80px;"></button>
       </div>
 
+      <!-- 9 to 5 -->
+      <div class="row" id="11Row">
 
+      <div class="col-md-2 time">11:00 AM</div>
+  
+      <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="11">
+        <textarea class="description" id="description11"></textarea>
+      </div>
+  
+      <div class="col-md-2 saveDiv">
+        <button type="button" class="saveBtn fa fa-floppy-o" data-time="11" style="height: 80px; width: 80px;"></button>
+      </div>
+
+      <!-- 9 to 5 -->
+      <div class="row" id="12Row">
+
+      <div class="col-md-2 time">12:00 PM</div>
+    
+      <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="12">
+        <textarea class="description" id="description12"></textarea>
+      </div>
+    
+      <div class="col-md-2 saveDiv">
+        <button type="button" class="saveBtn fa fa-floppy-o" data-time="12" style="height: 80px; width: 80px;"></button>
+      </div>
+
+      <!-- 9 to 5 -->
+      <div class="row" id="13Row">
+
+      <div class="col-md-2 time">1:00 PM</div>
+      
+      <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="13">
+        <textarea class="description" id="description13"></textarea>
+      </div>
+      
+      <div class="col-md-2 saveDiv">
+        <button type="button" class="saveBtn fa fa-floppy-o" data-time="13" style="height: 80px; width: 80px;"></button>
+      </div>
+  
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
