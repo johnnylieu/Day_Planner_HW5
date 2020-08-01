@@ -23,6 +23,11 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  width: 90%;
+  font-size: 32px;
+  padding: 1%;
+  margin: none;
+  border: 1px thin black;
 }
 
 .time-block{
