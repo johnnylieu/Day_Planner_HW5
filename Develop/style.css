@@ -24,7 +24,7 @@ textarea{
 .description{
   white-space: pre-wrap;
   width: 90%;
-  font-size: 32px;
+  font-size: 24px;
   padding: 1%;
   margin: none;
   border: 10px thin black;
@@ -66,11 +66,16 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: darkcyan;
   color: white;
+  position: relative;
+  right: 0;
+  transition: right ease 0.5s;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+  right: -10px;
+  background-color: darkgreen;
 }
