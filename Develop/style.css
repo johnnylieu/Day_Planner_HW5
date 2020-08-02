@@ -68,14 +68,14 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: darkcyan;
   color: white;
-  /* position: relative;
+  position: relative;
   right: 0;
-  transition: right ease 0.5s; */
+  transition: right ease 0.5s;
 }
 
 .saveBtn:hover {
   font-size: 20px;
-  /* transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
   right: -10px;
-  background-color: darkgreen; */
+  background-color: darkgreen;
 }
