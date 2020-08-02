@@ -9,25 +9,19 @@ saveBtn.on("click", function(event) {
     var btnData = $(this).attr("data-time");
     console.log(btnData); //working, gets time for each save button
 
-    var data = button.siblings(".description").val();
-    console.log(data);
+    var data = button.siblings(".description").val(); //gets the siblings of the button, specifically the description class and its value
+    console.log(data); // working
 
-    localStorage.setItem(btnData, data);
+    localStorage.setItem(btnData, data); // working
 });
 
-// probably using this to pull from storage
+// this pulls from storage
 $("#d9").val(localStorage.getItem("9"));
-$("#d2").text(localStorage.getItem("d2"));
-$("#d3").text(localStorage.getItem("d3"));
-$("#d4").text(localStorage.getItem("d4"));
-$("#d5").text(localStorage.getItem("d5"));
-$("#d6").text(localStorage.getItem("d6"));
-$("#d7").text(localStorage.getItem("d7"));
-$("#d8").text(localStorage.getItem("d8"));
-$("#d9").text(localStorage.getItem("d9"));
-
-// Questions for Bobbi
-// how do i align the row (time, textarea, and save button are not horizontally aligned)?
-// how do i get my html to show current time with seconds counting down (real time - time lol)?
-// should i set the current date and time to a variable then create a function for the variable that will set an attribute for a class in CSS to change the color of text area?
-// doesn't refreshing/closing the window clear our local storage data?
+$("#d10").val(localStorage.getItem("10"));
+$("#d11").val(localStorage.getItem("11"));
+$("#d12").val(localStorage.getItem("12"));
+$("#d13").val(localStorage.getItem("13"));
+$("#d14").val(localStorage.getItem("14"));
+$("#d15").val(localStorage.getItem("15"));
+$("#d16").val(localStorage.getItem("16"));
+$("#d17").val(localStorage.getItem("17"));
