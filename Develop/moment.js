@@ -19,6 +19,7 @@ function hourUpdate() {
     var currentHour = moment().hour(); // updates hour every 1.5 secs
     console.log(currentHour); // working
 
+    // a "for each" function to capture the number id in the time-block class
     $(".time-block").each(function (){
         var hourId = parseInt($(this).attr("id")); // gets the # of the id
         console.log(hourId); // working

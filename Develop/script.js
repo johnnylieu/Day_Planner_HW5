@@ -9,7 +9,7 @@ saveBtn.on("click", function(event) {
     var btnData = $(this).attr("data-time");
     console.log(btnData); //working, gets time for each save button
 
-    var data = button.siblings(".description").val(); //gets the siblings of the button, specifically the description class and its value
+    var data = button.siblings(".description").val(); //gets the siblings of the button. int this case, specifically the description class and its value
     console.log(data); // working
 
     localStorage.setItem(btnData, data); // working
