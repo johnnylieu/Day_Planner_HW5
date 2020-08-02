@@ -8,13 +8,11 @@ Try it here: https://johnnylieu.github.io/Day_Planner_HW5/
 
 ## History
 
-https://github.com/johnnylieu/Code_Quiz_HW/commits/master
+https://github.com/johnnylieu/Day_Planner_HW5/commits/master
 
 ## Screenshot
 
-This is a preview of the landing page:
-
-![Day Planner](./assets/05-third-party-apis-homework-demo.gif)
+![Day Planner](./Assets/05-third-party-apis-homework-demo.gif)
 
 ## Credits
 Special thanks to to my tutor Bobbi Tarkany for pointing me in the right direction.
