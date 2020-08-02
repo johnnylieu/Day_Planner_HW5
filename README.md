@@ -8,7 +8,7 @@ Try it here: https://johnnylieu.github.io/Day_Planner_HW5/
 
 ## History
 
-https://github.com/johnnylieu/Code_Quiz_HW/commits/master
+https://github.com/johnnylieu/Day_Planner_HW5/commits/master
 
 ## Screenshot
 
