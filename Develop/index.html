@@ -19,22 +19,24 @@
   /* because the scroll bar disappeared so i'm using this to bring it back */
   /* width */
   ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
   }
+
   /* Track */
   ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+    background: #f1f1f1;
   }
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
-  background: #888;
+    background: #888;
   }
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: #555;
   }
-  
-  </style>
+</style>
 
 <body>
   <header class="jumbotron">
@@ -46,22 +48,18 @@
     <!-- Timeblocks go here -->
 
     <!-- 9 to 5 light blue-->
-      <div class="row" id="9Row">
+    <div class="row time-block" id="9">
 
-      <div class="col-md-2 time">9:00 AM</div>
+      <div class="col-md-2 hour">9:00 AM</div>
 
-      <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="9">
-        <textarea class="description" id="description9"></textarea>
-      </div>
+      <textarea class="col-md-8 description" id="d9"></textarea>
 
-      <div class="col-md-2 saveDiv">
-        <button type="button" class="saveBtn fa fa-floppy-o" data-time="9" style="height: 80px; width: 80px;"></button>
-      </div>
-      </div>
-      <hr>
+      <button type="button" class="col-md-2 btn saveBtn" data-time="9"><i class="fas fa-save"></i></button>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 dark blue -->
-      <div class="row" id="10Row">
+    <!-- 9 to 5 dark blue -->
+    <div class="row" id="10Row">
 
       <div class="col-md-2 time">10:00 AM</div>
 
@@ -72,121 +70,121 @@
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="10" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 light blue-->
-      <div class="row" id="11Row">
+    <!-- 9 to 5 light blue-->
+    <div class="row" id="11Row">
 
       <div class="col-md-2 time">11:00 AM</div>
-  
+
       <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="11">
         <textarea class="description" id="description11"></textarea>
       </div>
-  
+
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="11" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 dark blue-->
-      <div class="row" id="12Row">
+    <!-- 9 to 5 dark blue-->
+    <div class="row" id="12Row">
 
       <div class="col-md-2 time">12:00 PM</div>
-    
+
       <div class="col-md-8 type time-block" style="background-color: #43A6C6" data-hour="12">
         <textarea class="description" id="description12"></textarea>
       </div>
       <hr>
-    
+
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="12" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 light blue -->
-      <div class="row" id="13Row">
+    <!-- 9 to 5 light blue -->
+    <div class="row" id="13Row">
 
       <div class="col-md-2 time">1:00 PM</div>
-      
+
       <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="13">
         <textarea class="description" id="description13"></textarea>
       </div>
-      
+
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="13" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 dark blue -->
-      <div class="row" id="14Row">
+    <!-- 9 to 5 dark blue -->
+    <div class="row" id="14Row">
 
       <div class="col-md-2 time">2:00 PM</div>
-        
-      <div class="col-md-8 type time-block" style="background-color: #43A6C6;" data-hour="14">
+
+      <div class="col-md-8 type time-block" data-hour="14">
         <textarea class="description" id="description14"></textarea>
       </div>
-        
+
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="14" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 lightblue-->
-      <div class="row" id="15Row">
+    <!-- 9 to 5 lightblue-->
+    <div class="row" id="15Row">
 
       <div class="col-md-2 time">3:00 PM</div>
-          
+
       <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="15">
         <textarea class="description" id="description15"></textarea>
       </div>
-          
+
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="15" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 dark blue-->
-      <div class="row" id="16Row">
+    <!-- 9 to 5 dark blue-->
+    <div class="row" id="16Row">
 
       <div class="col-md-2 time">4:00 PM</div>
-            
+
       <div class="col-md-8 type time-block" style="background-color: #43A6C6;" data-hour="16">
         <textarea class="description" id="description16"></textarea>
       </div>
-            
+
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="16" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
-      <!-- 9 to 5 light blue-->
-      <div class="row" id="17Row">
+    <!-- 9 to 5 light blue-->
+    <div class="row" id="17Row">
 
       <div class="col-md-2 time">5:00 PM</div>
-              
+
       <div class="col-md-8 type time-block" style="background-color: lightblue;" data-hour="17">
         <textarea class="description" id="description17"></textarea>
       </div>
-              
+
       <div class="col-md-2 saveDiv">
         <button type="button" class="saveBtn fa fa-floppy-o" data-time="17" style="height: 80px; width: 80px;"></button>
       </div>
-      </div>
-      <hr>
-  
     </div>
+    <hr>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="moment.js"></script>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="moment.js"></script>
 </body>
 
 </html>
