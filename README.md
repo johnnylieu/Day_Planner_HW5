@@ -12,8 +12,6 @@ https://github.com/johnnylieu/Code_Quiz_HW/commits/master
 
 ## Screenshot
 
-This is a preview of the landing page:
-
 ![Day Planner](./Assets/05-third-party-apis-homework-demo.gif)
 
 ## Credits
