@@ -25,3 +25,10 @@ $("#d14").val(localStorage.getItem("14"));
 $("#d15").val(localStorage.getItem("15"));
 $("#d16").val(localStorage.getItem("16"));
 $("#d17").val(localStorage.getItem("17"));
+
+// clears schedule (clears local storage)
+$("#clear").on("click", function () {
+    console.log("clicked");
+    localStorage.clear();
+    window.location.reload();
+});
